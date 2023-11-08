@@ -37,6 +37,13 @@ As per the sample provided by DigitalOcean, [Jest](https://jestjs.io/) has been 
 
 from within the specific function directory (ie `example-function` or `example-cron`).
 
+## Pricing
+
+It is not pricy at all...actually right now, [there's even a free tier](https://www.digitalocean.com/pricing/functions), so definitely check it out!
+
+![Free tier for DigitalOcean Serverless functions](./images/digitalocean.png)
+
+[![DigitalOcean Referral Badge](https://web-platforms.sfo2.digitaloceanspaces.com/WWW/Badge%203.svg)](https://www.digitalocean.com/?refcode=c90418c91d20&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge)
 
 # 🏃‍Getting Started 
 
