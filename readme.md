@@ -59,6 +59,22 @@ You will be given the option to connect to a specific namespace; if you have not
 
 Be sure to replace "example namespace" with the **unique** name of your namespace. This will be used to group your functions together. If you would like to use a different region, you can find the [DigitalOcean Region Matrix here](https://docs.digitalocean.com/products/platform/availability-matrix/).
 
+Alternatively, this is the known list in November 2023:
+
+| Description                 | Code  |
+|-----------------------------|-------|
+| New York City, United States | nyc1  |
+| New York City, United States | nyc3  |
+| Amsterdam, the Netherlands  | ams3  |
+| San Francisco, United States | sfo2  |
+| San Francisco, United States | sfo3  |
+| Singapore                   | sgp1  |
+| London, United Kingdom      | lon1  |
+| Frankfurt, Germany          | fra1  |
+| Toronto, Canada             | tor1  |
+| Bangalore, India            | blr1  |
+| Sydney, Australia           | syd1  |
+
 ## 👷 [Set up the project.yml](https://docs.digitalocean.com/products/functions/reference/project-configuration/)
 
 The project is configured via the `project.yml` file found in the root. In this file we define our functions and their various attributes:
