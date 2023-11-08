@@ -15,8 +15,6 @@ By downloading this boilerplate and following the instructions, you will be able
 
 ## 🏗️ Dependencies
 
-*Please note: running `npm install` is not required for the function to work. This occurs during deployment*
-
 ### 🧑‍💻 Runtimes (Languages)
 
 **DigitalOcean Serverless functions** are very versatile with the ability to run a variety of languages and frameworks. This boilerplate is written in Nodejs, though you can add modify the [project.yml](https://docs.digitalocean.com/products/functions/reference/project-configuration/) with any [runtime](https://docs.digitalocean.com/products/functions/reference/runtimes/) you see fit.
@@ -97,6 +95,8 @@ To deploy functions you've been working on, use this command:
 `doctl serverless deploy .`
 
 This may take a while and there's not much indication of progress, but don't worry it's just doing its thing.
+
+*Please note: running `npm install` or `npm update` are not required before deployment if you have updated any specifics This occurs during deployment*.
 
 ## 📣 Invoking the function
 
